@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IDCheckDemo.Adapters
 {
-    class MernisServiceAdapter : ICustomerCheckService   //dış bir servisi, sisteme entegre ederken, "adapter" denilen design patter kullanılır
+    class MernisServiceAdapter : ICustomerCheckService   //dış bir servisi, sisteme entegre ederken, "adapter" denilen design pattern kullanılır
     {
         public bool CheckIfRealPerson(Customer customer)
         {
